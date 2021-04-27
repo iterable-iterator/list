@@ -4,12 +4,13 @@
 Iterable to Array for JavaScript.
 See [docs](https://iterable-iterator.github.io/list/index.html).
 
-> :building_construction: Caveat emptor! This is work in progress. Code may be
-> working. Documentation may be present. Coherence may be. Maybe.
+> :warning: This is just an alias for [`Array.from`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from).
+> In 99.99999% of the cases please use `Array.from` directly.
 
-> :warning: Depending on your environment, the code may require
-> `regeneratorRuntime` to be defined, for instance by importing
-> [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).
+```js
+import {list} from '@iterable-iterator/list';
+list('abc'); // ['a', 'b', 'c']
+```
 
 [![License](https://img.shields.io/github/license/iterable-iterator/list.svg)](https://raw.githubusercontent.com/iterable-iterator/list/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@iterable-iterator/list.svg)](https://www.npmjs.org/package/@iterable-iterator/list)

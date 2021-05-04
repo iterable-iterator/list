@@ -10,6 +10,9 @@ See [docs](https://iterable-iterator.github.io/list/index.html).
 ```js
 import {list} from '@iterable-iterator/list';
 list('abc'); // ['a', 'b', 'c']
+
+import {nrepeat} from '@iterable-iterator/repeat';
+list(nrepeat('A', 3)); // ['A', 'A', 'A']
 ```
 
 [![License](https://img.shields.io/github/license/iterable-iterator/list.svg)](https://raw.githubusercontent.com/iterable-iterator/list/main/LICENSE)

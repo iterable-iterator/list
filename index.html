@@ -41,7 +41,10 @@ See <a href="https://iterable-iterator.github.io/list/index.html">docs</a>.</p>
 In 99.99999% of the cases please use <code>Array.from</code> directly.</p>
 </blockquote>
 <pre><code class="lang-js"><code class="source-code prettyprint">import {list} from &apos;@iterable-iterator/list&apos;;
-list(&apos;abc&apos;); // [&apos;a&apos;, &apos;b&apos;, &apos;c&apos;]</code>
+list(&apos;abc&apos;); // [&apos;a&apos;, &apos;b&apos;, &apos;c&apos;]
+
+import {nrepeat} from &apos;@iterable-iterator/repeat&apos;;
+list(nrepeat(&apos;A&apos;, 3)); // [&apos;A&apos;, &apos;A&apos;, &apos;A&apos;]</code>
 </code></pre>
 <p><a href="https://raw.githubusercontent.com/iterable-iterator/list/main/LICENSE"><img src="https://img.shields.io/github/license/iterable-iterator/list.svg" alt="License"></a>
 <a href="https://www.npmjs.org/package/@iterable-iterator/list"><img src="https://img.shields.io/npm/v/@iterable-iterator/list.svg" alt="Version"></a>

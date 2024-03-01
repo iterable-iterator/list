@@ -18,8 +18,7 @@ list(nrepeat('A', 3)); // ['A', 'A', 'A']
 [![License](https://img.shields.io/github/license/iterable-iterator/list.svg)](https://raw.githubusercontent.com/iterable-iterator/list/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@iterable-iterator/list.svg)](https://www.npmjs.org/package/@iterable-iterator/list)
 [![Tests](https://img.shields.io/github/workflow/status/iterable-iterator/list/ci:test?event=push&label=tests)](https://github.com/iterable-iterator/list/actions/workflows/ci:test.yml?query=branch:main)
-[![Dependencies](https://img.shields.io/david/iterable-iterator/list.svg)](https://david-dm.org/iterable-iterator/list)
-[![Dev dependencies](https://img.shields.io/david/dev/iterable-iterator/list.svg)](https://david-dm.org/iterable-iterator/list?type=dev)
+[![Dependencies](https://img.shields.io/librariesio/github/iterable-iterator/list.svg)](https://github.com/iterable-iterator/list/network/dependencies)
 [![GitHub issues](https://img.shields.io/github/issues/iterable-iterator/list.svg)](https://github.com/iterable-iterator/list/issues)
 [![Downloads](https://img.shields.io/npm/dm/@iterable-iterator/list.svg)](https://www.npmjs.org/package/@iterable-iterator/list)
 

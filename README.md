@@ -17,7 +17,7 @@ list(nrepeat('A', 3)); // ['A', 'A', 'A']
 
 [![License](https://img.shields.io/github/license/iterable-iterator/list.svg)](https://raw.githubusercontent.com/iterable-iterator/list/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@iterable-iterator/list.svg)](https://www.npmjs.org/package/@iterable-iterator/list)
-[![Tests](https://img.shields.io/github/workflow/status/iterable-iterator/list/ci:cover?event=push&label=tests)](https://github.com/iterable-iterator/list/actions/workflows/ci:cover.yml?query=branch:main)
+[![Tests](https://img.shields.io/github/workflow/status/iterable-iterator/list/ci?event=push&label=tests)](https://github.com/iterable-iterator/list/actions/workflows/ci.yml?query=branch:main)
 [![Dependencies](https://img.shields.io/librariesio/github/iterable-iterator/list.svg)](https://github.com/iterable-iterator/list/network/dependencies)
 [![GitHub issues](https://img.shields.io/github/issues/iterable-iterator/list.svg)](https://github.com/iterable-iterator/list/issues)
 [![Downloads](https://img.shields.io/npm/dm/@iterable-iterator/list.svg)](https://www.npmjs.org/package/@iterable-iterator/list)

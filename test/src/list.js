@@ -2,7 +2,7 @@ import test from 'ava';
 
 import {range} from '@iterable-iterator/range';
 
-import {list} from '../../src/index.js';
+import {list} from '#module';
 
 test('range(0)', (t) => {
 	t.deepEqual(list(range(0)), []);
